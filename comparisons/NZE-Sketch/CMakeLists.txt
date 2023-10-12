@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.11)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS -O3)
+set(TOP_PROJECT_NAME "NZE")
+set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
+project(${TOP_PROJECT_NAME})
+
+include_directories(include)
+
+#add_compile_definitions(CM_DEPTH=$ENV{CM_DEPTH})
+#add_compile_definitions(CM_WIDTH=$ENV{CM_WIDTH})
+#add_compile_definitions(BLOOM_SIZE=$ENV{BLOOM_SIZE})
+#add_compile_definitions(SLOT_NUM=$ENV{SLOT_NUM})
+#add_compile_definitions(KEY_T_SIZE=$ENV{KEY_T_SIZE})
+add_executable(seq SeqSketch/experiment.cpp)
+# add_executable(embed EmbedSketch/experiment.cpp)

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/guest/NZE-Sketch/build",
+  "command": "/usr/bin/c++   -I/home/guest/NZE-Sketch/include  -O3   -std=gnu++17 -o CMakeFiles/seq.dir/SeqSketch/experiment.cpp.o -c /home/guest/NZE-Sketch/SeqSketch/experiment.cpp",
+  "file": "/home/guest/NZE-Sketch/SeqSketch/experiment.cpp"
+}
+]

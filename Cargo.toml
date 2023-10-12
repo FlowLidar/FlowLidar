@@ -1,0 +1,15 @@
+[package]
+name = "FlowLidar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pcap-parser = { version = "0.14.0", features = ["data"] }
+packet = "0.1.4"
+csv = "1.2.1"
+nalgebra = "0.32.2"
+nalgebra-lapack = "0.24.0"
+clap = "3.2.4"
+lstsq = "0.5.0"

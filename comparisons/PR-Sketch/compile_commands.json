@@ -1,0 +1,920 @@
+[
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/exec/dataset_split.o",
+   "pcap_process/exec/dataset_split.c"
+  ],
+  "file": "pcap_process/exec/dataset_split.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/sparse_counters.o",
+   "pcap_process/common/sparse_counters.c"
+  ],
+  "file": "pcap_process/common/sparse_counters.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/packet.o",
+   "pcap_process/common/packet.c"
+  ],
+  "file": "pcap_process/common/packet.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/config.o",
+   "pcap_process/common/config.c"
+  ],
+  "file": "pcap_process/common/config.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/nodekey_mapping.o",
+   "pcap_process/common/nodekey_mapping.c"
+  ],
+  "file": "pcap_process/common/nodekey_mapping.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/global.o",
+   "pcap_process/common/global.c"
+  ],
+  "file": "pcap_process/common/global.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/util.o",
+   "pcap_process/common/util.c"
+  ],
+  "file": "pcap_process/common/util.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/common/ancillary.o",
+   "pcap_process/common/ancillary.c"
+  ],
+  "file": "pcap_process/common/ancillary.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/exec/matrix_measure.o",
+   "pcap_process/exec/matrix_measure.c"
+  ],
+  "file": "pcap_process/exec/matrix_measure.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/measure/tm.o",
+   "pcap_process/measure/tm.c"
+  ],
+  "file": "pcap_process/measure/tm.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/measure/profile.o",
+   "pcap_process/measure/profile.c"
+  ],
+  "file": "pcap_process/measure/profile.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/exec/matrix_analyse.o",
+   "pcap_process/exec/matrix_analyse.c"
+  ],
+  "file": "pcap_process/exec/matrix_analyse.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/exec/trace_preprocess.o",
+   "pcap_process/exec/trace_preprocess.c"
+  ],
+  "file": "pcap_process/exec/trace_preprocess.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/preprocess/adapter_dir.o",
+   "pcap_process/preprocess/adapter_dir.c"
+  ],
+  "file": "pcap_process/preprocess/adapter_dir.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "pcap_process/exec/traffic_aggregate.o",
+   "pcap_process/exec/traffic_aggregate.c"
+  ],
+  "file": "pcap_process/exec/traffic_aggregate.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/powerlaw_gen.o",
+   "sketching/exec/powerlaw_gen.c"
+  ],
+  "file": "sketching/exec/powerlaw_gen.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/util.o",
+   "sketching/utils/util.c"
+  ],
+  "file": "sketching/utils/util.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/MRAC_test.o",
+   "sketching/exec/MRAC_test.c"
+  ],
+  "file": "sketching/exec/MRAC_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/cmheap.o",
+   "sketching/algorithm/cmheap.c"
+  ],
+  "file": "sketching/algorithm/cmheap.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/elastic_sketch.o",
+   "sketching/algorithm/elastic_sketch.c"
+  ],
+  "file": "sketching/algorithm/elastic_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/pr_sketch.o",
+   "sketching/algorithm/pr_sketch.c"
+  ],
+  "file": "sketching/algorithm/pr_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/MV_sketch.o",
+   "sketching/algorithm/MV_sketch.c"
+  ],
+  "file": "sketching/algorithm/MV_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/flowradar.o",
+   "sketching/algorithm/flowradar.c"
+  ],
+  "file": "sketching/algorithm/flowradar.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/MRAC.o",
+   "sketching/algorithm/MRAC.c"
+  ],
+  "file": "sketching/algorithm/MRAC.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/LD_sketch.o",
+   "sketching/algorithm/LD_sketch.c"
+  ],
+  "file": "sketching/algorithm/LD_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/countheap.o",
+   "sketching/algorithm/countheap.c"
+  ],
+  "file": "sketching/algorithm/countheap.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/deltoid.o",
+   "sketching/algorithm/deltoid.c"
+  ],
+  "file": "sketching/algorithm/deltoid.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/fastpr_sketch.o",
+   "sketching/algorithm/fastpr_sketch.c"
+  ],
+  "file": "sketching/algorithm/fastpr_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/lossy_counting.o",
+   "sketching/algorithm/lossy_counting.c"
+  ],
+  "file": "sketching/algorithm/lossy_counting.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/univmon.o",
+   "sketching/algorithm/univmon.c"
+  ],
+  "file": "sketching/algorithm/univmon.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/algorithm/CM_sketch.o",
+   "sketching/algorithm/CM_sketch.c"
+  ],
+  "file": "sketching/algorithm/CM_sketch.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/hash/hash.o",
+   "sketching/hash/hash.c"
+  ],
+  "file": "sketching/hash/hash.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/hash/MurmurHash3.o",
+   "sketching/hash/MurmurHash3.c"
+  ],
+  "file": "sketching/hash/MurmurHash3.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/tuple/tuple_records.o",
+   "sketching/tuple/tuple_records.c"
+  ],
+  "file": "sketching/tuple/tuple_records.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/estimator.o",
+   "sketching/utils/estimator.c"
+  ],
+  "file": "sketching/utils/estimator.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/memory.o",
+   "sketching/utils/memory.c"
+  ],
+  "file": "sketching/utils/memory.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/test_helper.o",
+   "sketching/utils/test_helper.c"
+  ],
+  "file": "sketching/utils/test_helper.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/debug.o",
+   "sketching/utils/debug.c"
+  ],
+  "file": "sketching/utils/debug.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/utils/equation_solver.o",
+   "sketching/utils/equation_solver.c"
+  ],
+  "file": "sketching/utils/equation_solver.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/metric/heavy_metric.o",
+   "sketching/metric/heavy_metric.c"
+  ],
+  "file": "sketching/metric/heavy_metric.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/metric/other_metric.o",
+   "sketching/metric/other_metric.c"
+  ],
+  "file": "sketching/metric/other_metric.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/metric/flowsize_metric.o",
+   "sketching/metric/flowsize_metric.c"
+  ],
+  "file": "sketching/metric/flowsize_metric.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/metric/cover_proportion.o",
+   "sketching/metric/cover_proportion.c"
+  ],
+  "file": "sketching/metric/cover_proportion.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/deltoid_test.o",
+   "sketching/exec/deltoid_test.c"
+  ],
+  "file": "sketching/exec/deltoid_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/CM_sketch_test.o",
+   "sketching/exec/CM_sketch_test.c"
+  ],
+  "file": "sketching/exec/CM_sketch_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/pr_sketch_test.o",
+   "sketching/exec/pr_sketch_test.c"
+  ],
+  "file": "sketching/exec/pr_sketch_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/univmon_test.o",
+   "sketching/exec/univmon_test.c"
+  ],
+  "file": "sketching/exec/univmon_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/cmheap_test.o",
+   "sketching/exec/cmheap_test.c"
+  ],
+  "file": "sketching/exec/cmheap_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/lossy_counting_test.o",
+   "sketching/exec/lossy_counting_test.c"
+  ],
+  "file": "sketching/exec/lossy_counting_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/LD_sketch_test.o",
+   "sketching/exec/LD_sketch_test.c"
+  ],
+  "file": "sketching/exec/LD_sketch_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/elastic_sketch_test.o",
+   "sketching/exec/elastic_sketch_test.c"
+  ],
+  "file": "sketching/exec/elastic_sketch_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/flowradar_test.o",
+   "sketching/exec/flowradar_test.c"
+  ],
+  "file": "sketching/exec/flowradar_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/MV_sketch_test.o",
+   "sketching/exec/MV_sketch_test.c"
+  ],
+  "file": "sketching/exec/MV_sketch_test.c"
+ },
+ {
+  "directory": "/home/guest/PR-Sketch",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-std=c++11",
+   "-O3",
+   "-mavx2",
+   "-c",
+   "-g",
+   "-I./include",
+   "-o",
+   "sketching/exec/fastpr_sketch_test.o",
+   "sketching/exec/fastpr_sketch_test.c"
+  ],
+  "file": "sketching/exec/fastpr_sketch_test.c"
+ }
+]
