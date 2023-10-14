@@ -1,6 +1,6 @@
 # FlowLiDAR
 
-This is the repository for the simulator used in the paper "Lightweight Acquisition and Ranging of Flows in the Data-Plane", ACM Sigmetrics 2023. 
+This is the repository for the simulator used in the paper "Lightweight Acquisition and Ranging of Flows in the Data-Plane", ACM Sigmetrics 2024. 
 The repository contains the simulator, the P4 implementation, and the scripts used to create tables and figures presented in the evaluation section.
 
 # Getting Started
